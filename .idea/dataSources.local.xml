@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Rails crud: production" uuid="72b78fd3-0000-4b0f-b9f0-0a80ec9b0eb9">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <user-name>postgres</user-name>
+    </data-source>
+    <data-source name="Rails crud: development" uuid="3901f714-46aa-4ecc-9ec2-13986776a0ad">
+      <database-info product="PostgreSQL" version="10.1" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.1.1">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <user-name>postgres</user-name>
+      <introspection-schemas>simple_crud_development:public</introspection-schemas>
+    </data-source>
+    <data-source name="Rails crud: test" uuid="9a9045a5-59ee-49c5-8024-a7572639a3aa">
+      <database-info product="PostgreSQL" version="10.1" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.1.1">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <user-name>postgres</user-name>
+      <introspection-schemas>simple_crud_test:public</introspection-schemas>
+    </data-source>
+  </component>
+</project>
