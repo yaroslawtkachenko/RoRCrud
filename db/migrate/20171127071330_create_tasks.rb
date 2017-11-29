@@ -3,7 +3,7 @@ class CreateTasks < ActiveRecord::Migration[5.1]
     create_table :tasks do |t|
       t.string :name
       t.string :description
-      t.references :user, index: true, foreign_key: { on_delete: :cascade }
+      t.references :user, type: :uuid, index: true
       t.timestamps
     end
   end
