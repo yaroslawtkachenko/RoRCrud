@@ -31,3 +31,9 @@
 
 en:
   hello: "Hello world"
+  name: "Name"
+  descript: "Description"
+  import: "Importance"
+  status: "Status"
+  update: "Update"
+  delete: "Delete"
