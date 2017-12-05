@@ -1,0 +1,10 @@
+<div>
+  <%= form_with(model: task, local: true) do |form|  -%>
+      <%= form.text_field :name, value: @task.name %>
+      <%= form.text_field :description, value: @task.description %>
+      <%= form.text_field :importance %>
+      <%= form.date_select :expiry, order: [:day, :month, :year] %>
+      <%= form.check_box :done %>
+      <%= form.submit%>
+  <% end %>
+</div>
