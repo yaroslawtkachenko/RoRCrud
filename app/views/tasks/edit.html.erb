@@ -1,9 +1,3 @@
-<%= form_for @task, url: update_task_path(@task.id),  method: :post do |f| -%>
-    <%= f.hidden_field :id, value: @task.id %>
-    <%= f.text_field :name, value: @task.name %>
-    <%= f.text_field :description, value: @task.description %>
-    <%= f.text_field :importance %>
-    <%= f.date_select :expiry, order: [:day, :month, :year] %>
-    <%= f.check_box :done %>
-    <%= f.submit%>
-<% end %>
+<h1 align="center">Editing Task</h1>
+
+<%= render 'form', task: @task %>

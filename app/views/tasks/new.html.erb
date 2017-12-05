@@ -1,7 +1,3 @@
-<%= form_for :task do |f| -%>
-    <%= f.text_field :name, placeholder: 'name' %>
-    <%= f.text_field :description, placeholder: 'description'%>
-    <%= f.text_field :importance, placeholder: 'importance'%>
-    <%= f.date_select :expiry, order: [:day, :month, :year] %>
-    <%= f.submit %>
-<% end %>
+<h1 align="center">New Task</h1>
+
+<%= render 'form', task: @task %>

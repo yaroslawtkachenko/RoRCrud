@@ -15,8 +15,8 @@
             <p><%= t('import') %>:
             <%= task.importance %>
             <%= task.expiry %></p>
-            <%= link_to t('update'), edit_task_path(id: task.id), method: :get%>
-            <%= link_to t('delete'), delete_task_path(id: task.id), method: :delete %>
+            <%= link_to t(:update), edit_task_path(task), method: :get%>
+            <%= link_to t(:delete), task, method: :delete %>
           </div>
       <% end %>
 
